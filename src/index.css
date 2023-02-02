@@ -101,3 +101,41 @@ main {
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+
+.weather-info {
+  text-align: center;
+  width: 50%;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  display: inline;
+  padding-top: 250px;
+  margin-top: 50px;
+  line-height: 14mm;
+  
+}
+
+.weather-info span{
+  text-align: center;
+  width: 50%;
+  color: white;
+  font-size: 40px;
+  position: relative;
+  display: inline;
+  padding-top: 250px;
+  margin-top: 50px;
+  
+}
+
+.sun-timings {
+  text-align: center;
+  width: 50%;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  display: inline;
+  padding-top: 250px;
+  margin-top: 50px;
+  line-height: 14mm;
+  
+}
