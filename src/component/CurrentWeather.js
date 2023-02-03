@@ -52,7 +52,7 @@ const api = {
   
     return (
       <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
-        <main className={(typeof weather.rain != "undefined") ? 'weather rain' : "weather"}>
+        <main className={(typeof weather.rain != "undefined") ? 'weather rain' : "weather snow"}>
           <div className="search-box">
             <input 
               type="text"
