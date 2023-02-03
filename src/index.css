@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 1px;
+  padding: 1px;
   box-sizing: border-box;
 }
 
@@ -9,10 +9,12 @@ body {
 }
 
 .app {
+  margin-top: 10px;
   background-image: url('./assets/cold-weather.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
+  height: auto;
 }
 
 .app.warm {
