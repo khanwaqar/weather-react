@@ -39,7 +39,7 @@ const Forecast = ({ data }) => {
           <p className="city">{forecastDays[idx]}</p>
           <p className="weather-description">{item.weather[0].description}</p>
       </div>
-      <img alt="weather" className="weather-icon" src="icons/10d.png" />
+      <img src={`icons/${item.weather[0].icon}.png`} className="icon-small" alt="weather" />
       </div>
       <div className="bottom">
       <p className="temperature">{Math.round(item.main.temp_max)}°C</p>
